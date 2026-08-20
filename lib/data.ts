@@ -276,6 +276,22 @@ export const projects: Project[] = [
     date: "2024-01",
   },
   {
+    id: "itmodern",
+    title: "IT Modern Ltd",
+    slug: "e-commerce",
+    description:
+      "Full-featured e-commerce business website offering a variety of services and products with an integrated ordering system.",
+    longDescription:
+      "A professional business website built for IT Modern Ltd that showcases services, manages product catalog, and enables customers to place orders online. Features a clean, modern UI with a custom CMS-like admin panel for managing products and orders, integrated with a node js backend and Mongodb database for reliability.",
+    image: "/assets/itmodern.png",
+    technologies: ["React", "Vite", "JavaScript", "NodeJS", "MongoDB"],
+    category: "Business",
+    featured: true,
+    liveUrl: "https://itmodern.netlify.app",
+    status: "completed",
+    date: "2026-08",
+  },
+  {
     id: "mbazumutima-shop",
     title: "MBAZUMUTIMA SHOP",
     slug: "mbazumutima-shop",
@@ -306,6 +322,38 @@ export const projects: Project[] = [
     liveUrl: "https://mbvsystem.netlify.app/",
     status: "completed",
     date: "2023-09",
+  },
+  {
+    id: "indorerwamo",
+    title: "Indorerwamo",
+    slug: "indorerwamo",
+    description:
+      "Indorerwamu - Your Digital Health & Wellness Companion",
+    longDescription:
+      "Indorerwamu is a modern digital platform designed to help individuals stay informed, organized, and connected throughout their health and wellness journey. The app provides health education, wellness resources, appointment management tools, and Al-powered... ",
+    image: "/assets/indorerwamo.jpeg",
+    technologies: ["Flutter", "MongoDB", "Express.js", "React.js", "Node.js", "EmailJS"],
+    category: "Mobile App",
+    featured: true,
+    liveUrl: "https://play.google.com/store/apps/details?id=com.indorerwamu.app",
+    status: "completed",
+    date: "2023-04",
+  },
+  {
+    id: "tsindiraprovisoire",
+    title: "Tsindira Provisoire",
+    slug: "tsindiraprovisoire",
+    description:
+      "Tsindira Provisoire - Practice and Master Rwandan Traffic Rules for Driving License Exam",
+    longDescription:
+      "Mobile App for teaching and testing Rwandan traffic rules — Tsindira Provisoire ukoze rimwe! A comprehensive mobile app-based learning management system for Rwanda's driving license exam preparation. Students can study all traffic laws in Kinyarwanda and English, take timed practice tests, and track their progress. The platform uses adaptive testing algorithms to focus on areas where learners need the most improvement, significantly increasing pass rates on the official exam.",
+    image: "/assets/tsindiraprovisoir.jpeg",
+    technologies: ["Flutter", "MongoDB", "Express.js", "React.js", "Node.js", "EmailJS"],
+    category: "Mobile App",
+    featured: true,
+    liveUrl: "https://play.google.com/store/apps/details?id=com.tsindiraprovisoire.app",
+    status: "completed",
+    date: "2026-04",
   },
   {
     id: "ticket-booking",
